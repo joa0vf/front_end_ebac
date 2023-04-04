@@ -47,6 +47,7 @@ main{
 
 .articles{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -88,6 +89,43 @@ p{
 hr{
   margin-top: 40px;
 }
+
+#sports{
+  background-color: rgb(183, 217, 255);
+}
+
+#sports .articles article a{
+  background-color: rgb(67, 81, 97);
+}
+
+#economy{
+  background-color: rgb(224, 224, 224);
+}
+
+#economy .articles article a{
+  background-color: rgb(59, 59, 59);
+}
+
+#games{
+  background-color: rgb(217, 177, 255);
+}
+
+#games .articles article a{
+  background-color: rgb(84, 26, 138);
+}
+
+#entertainment{
+  background-color: rgb(255, 215, 141);
+}
+
+#entertainment .articles article a{
+  background-color: rgb(97, 63, 0);
+}
+
+section{
+  padding: 16px 16px;
+}
+
 
 
 
